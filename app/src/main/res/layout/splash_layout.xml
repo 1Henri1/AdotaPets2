@@ -6,6 +6,7 @@
     android:gravity="center_vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#D6A45F"
     tools:context=".Splash_Activity"
     >
 
@@ -20,6 +21,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
+        android:shadowColor="#fff"
+        android:shadowRadius="10"
         android:text="Adota-Pet"
         android:textSize="40sp"
         android:textColor="#513003"
