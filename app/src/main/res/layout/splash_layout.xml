@@ -25,7 +25,7 @@
         android:shadowRadius="10"
         android:text="Adota-Pet"
         android:textSize="40sp"
-        android:textColor="#513003"
+        android:textColor="#0A205A"
         android:fontFamily="@font/righteous"
         android:textStyle="bold"
         />
