@@ -43,6 +43,7 @@ public class Login_Activity extends AppCompatActivity {
                 senha = txtsenha.getText().toString();
                 if (usuario.equals("etecia") && senha.equals("etecia")) {
                     startActivity(new Intent(getApplicationContext(), Menu_Activity.class));
+                    finish();
                 }else {
                     Toast.makeText(getApplicationContext(), "usuario ou senha invalidos", Toast.LENGTH_SHORT).show();
                 }
@@ -53,7 +54,9 @@ public class Login_Activity extends AppCompatActivity {
         lblcadastrar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
                 startActivity(new Intent(getApplicationContext(), CadUsu_Activity.class));
+                finish();
             }
         });
     }
